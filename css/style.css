@@ -1,0 +1,296 @@
+/****** CORES *******/
+:root{
+    --body-color: #FFFFFF;
+    --border-color: #696969;
+    --border-color-hover: #363636;
+    --filedset-border-color: #B5B5B5;
+    --page-color: #6d00a8;
+    --titulo-color: #1C1C1C;
+    --link-color: #1C1C1C; 
+    --link-color-contatos: #9C9C9C;
+    --icone-color: #FFFFFF; 
+}
+
+/****** FONTE *******/
+:root {
+    --font-titulo: --font-titulo: Arial, Helvetica, sans-serif; 
+}
+
+/****** BODY *******/
+.body-page {
+    background-color: var(--body-color);
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    font-weight: 700;
+}
+
+.ancora {
+    position: relative;
+    top: -55px;
+}
+
+.titulo {
+    color: var(--page-color);
+}
+
+.body-header {
+    margin-top: 10px;
+    color: var(--page-color);
+}
+
+.card-grupo1, .card-grupo2, .card-grupo3 {
+    padding: 5px;
+}
+
+/****** NAVBAR *******/
+#logo {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-menu {
+    background-color: var(--page-color);
+}
+
+.nav-item {
+    font-weight: 700;
+}
+
+/****** HOME *******/
+.section-home {
+    margin-top: 50px;
+}
+
+.card-home {
+    margin-top: 8px;
+    max-width: 100%;
+    text-align: justify;
+    box-shadow: 0 4px 4px 0 var(--border-color);
+}
+
+.card-home hr {
+    height: 3px;
+    color: var(--page-color);
+    background-color: var(--page-color);
+}
+
+.img-home-background {
+    width: 100%;
+    height: 400px;
+    filter: brightness(90%) blur(3px);
+}
+
+.icone-background{
+    margin-top: -14px;
+    padding: 6px;
+    color: var(--icone-color);
+    transition: 0.3s;
+}
+
+.icone-background:hover {
+    color: var(--page-color);
+}
+
+.imagem-perfil {
+    width: 190px;
+    height: 190px;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid var(--page-color);
+    background: url(../assets/img/page/felipe.jpeg) no-repeat;  
+    background-size: cover; 
+    background-position: center center; 
+}
+
+.card-contatos-home {
+    margin-top: -25px;
+}
+
+.text-home {
+    padding: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--icone-color);   
+}
+
+.text-home:hover {
+    padding: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--page-color);
+    text-decoration: none;
+    transition: filter 0.4s ease;
+}
+
+/****** RESUMO *******/
+.section-resumo {
+    margin-top: 12px;
+}
+
+.texto-resumo {
+    text-align: justify;
+}
+
+/****** HABILIDADES *******/
+.section-habilidades{
+    margin-top: 12px;
+}
+
+.texto-habilidades {
+    font-weight: 500;
+}
+
+.progress {
+    max-height: 10px;    
+}
+
+/****** PORTFOLIO *******/
+.section-portfolio {
+    margin-top: 10px; 
+}
+
+.card-portfolio {
+    box-shadow: 0 4px 4px 0 var(--border-color);
+    transition: 0.3s;
+}
+
+.card-portfolio:hover {
+    box-shadow: 0 5px 5px 0 var(--border-color-hover);
+}
+
+.imagem-card {
+    height: 140px;
+}
+
+.repositorios-portfolio{
+    padding: 2px;
+}
+
+.btn-repositorio {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 4px;
+    color: var(--titulo-color);
+    border-radius: 16px;
+    border: 0.1rem solid var(--border-color);
+    background: var(--icone-color)
+}
+
+.btn-repositorio:hover {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 16px;
+    color: var(--body-color);
+    border: 0.1rem solid var(--page-color);
+    background: var(--page-color);
+}
+
+/****** CONTATO *******/
+.section-contato {
+    margin-top: 10px;
+}
+
+.card-contatos {
+    box-shadow: 0 4px 4px 0 var(--border-color);
+}
+
+.img-contato {
+    margin-left: 4px;
+    filter: grayscale(100%);
+}
+
+.img-contato:hover {
+    filter: grayscale(0%);
+    transition: filter 0.4s ease;
+}
+
+.text-contato {
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--titulo-color);   
+}
+
+.text-contato:hover {
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--page-color);
+    text-decoration: none;
+    transition: filter 0.4s ease;
+}
+
+.links-contato {
+    margin-top: -8px;
+}
+
+.icone-background-contatos {
+    margin-top: -6px;
+    padding: 4px;
+    color: var(--link-color-contatos);    
+}
+
+.icone-background-contatos:hover {
+    color: var(--page-color);
+}
+
+.fildset-box-contatos {
+    border: solid 1px var(--filedset-border-color);
+    border-width: thin;
+    border-radius:8px;
+    width: 300px;
+    height: 100px;    
+}
+
+.box-conteudo {
+    padding: 10px;
+    margin-top: 6px;
+    margin-left: 14px;
+}
+
+#my-form {
+    padding: 10px;
+}
+
+.btn-enviar {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--titulo-color);
+    border-radius: 16px;
+    width: 100px;
+    height: 30px;
+    background: var(--icone-color);
+    border: 1px solid var(--border-color);   
+}
+
+.btn-enviar:hover {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 16px;
+    color: var(--body-color);
+    background: var(--page-color);
+    border: 1px solid var(--page-color);    
+}
+
+#fd-contato {
+    border: 1px solid var(--filedset-border-color);
+    border-radius: 0.25rem;
+}
+
+#my-form-status {
+    font-weight: 700;
+    color: var(--page-color);
+}
+
+/****** FOOTER *******/
+.section-footer {
+    margin-top: 8px;
+}
